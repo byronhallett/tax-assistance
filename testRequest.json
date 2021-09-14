@@ -1,0 +1,214 @@
+{
+  "responseId": "a519d387-4d9f-40c8-8f21-da5cc075b4fe-e1f57fd1",
+  "queryResult": {
+    "queryText": "$123",
+    "action": "Action.Answer",
+    "parameters": {
+      "unit-currency": {
+        "amount": 123,
+        "currency": "USD"
+      },
+      "number": ""
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Withhold $100. Any other income to calculate?",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": ["Withhold $100. Any other income to calculate?"]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/answer-followup",
+        "lifespanCount": 2,
+        "parameters": {
+          "number": "",
+          "number.original": "",
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123"
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/actions_capability_media_response_audio",
+        "parameters": {
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/actions_capability_account_linking",
+        "parameters": {
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/actions_capability_screen_output",
+        "parameters": {
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/actions_capability_audio_output",
+        "parameters": {
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/actions_capability_web_browser",
+        "parameters": {
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/google_assistant_input_type_keyboard",
+        "parameters": {
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/answer-yes-followup",
+        "lifespanCount": 1,
+        "parameters": {
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      },
+      {
+        "name": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E/contexts/__system_counters__",
+        "parameters": {
+          "no-input": 0,
+          "no-match": 0,
+          "unit-currency": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "unit-currency.original": "$123",
+          "number": "",
+          "number.original": ""
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/tax-time-c294a/agent/intents/4f45e35b-9eb7-45c1-b7b8-873ca82f7fe9",
+      "displayName": "Answer"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2020-01-26T12:47:55Z",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E",
+        "type": "ACTIVE",
+        "conversationToken": "[\"answer-yes-followup\",\"answer-followup\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "$123"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "$123",
+              "textValue": "$123"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/tax-time-c294a/agent/sessions/ABwppHG4UBjS5Jz8_xa7ciTAncOSx6ggPscIjSOwQw6k4gpDuPsBb-UoATukc9Vtx2rONj83vgRu_yKso9E"
+}
